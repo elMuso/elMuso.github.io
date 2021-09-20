@@ -1,0 +1,95 @@
+.wrapper {
+  background-color: #202020;
+  width: calc(100vw - 80px);
+  min-height: 100vh;
+  height: 100%;
+  color: #fff;
+  padding: 100px 20px 200px;
+  box-sizing: border-box;
+}
+
+.block {
+  z-index: 10;
+  position: relative;
+}
+.line{
+  content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    width: 1px;
+    background-color: #f2f2f2;
+    left: 50%;
+    margin-top: 20px;
+} 
+.title {
+
+  text-align: center;
+  width: 100%;
+  
+}
+.each-year{
+  width: 100%;
+}
+.each-event {
+  display: block;
+  text-decoration: none;
+  background-color: #00000090;
+  color: #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+  width: 300px;
+  background-image: radial-gradient(circle 16px at 0 50%, red 7050px);
+  margin-left: calc(50% + 20px);
+}
+.nan:before {
+    content: "";
+    display:block;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: -28px;
+    width: 16px;
+    right: 50%;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+.each-event:nth-child(odd) .nan:before{
+ left:calc(100% + 12px);
+}
+
+ .each-event:nth-child(odd) {
+      margin-left: calc(50%  - 320px);
+    }
+@media (max-width: 768px) {
+  .each-event{
+    width: 100%;
+    margin-left: 20px;
+  }
+  .each-event:nth-child(odd) {
+      margin-left: 20px;
+    }
+    .each-event:nth-child(odd) .nan:before{
+ left:-28px;
+}
+  .line{
+    left: 0%;
+  }
+  .title{
+     text-align: left;
+    margin-right: 100%;
+  }
+}
+
+.responsive {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}

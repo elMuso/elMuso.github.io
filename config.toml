@@ -3,8 +3,8 @@ title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-relativeURLs = true
-uglyURLs = true
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -25,7 +25,9 @@ uglyURLs = true
   keywords = "homepage, blog"
   images = [""]
 
-
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
 
 [languages]
   [languages.en]
@@ -44,7 +46,12 @@ uglyURLs = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+[menu]
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"

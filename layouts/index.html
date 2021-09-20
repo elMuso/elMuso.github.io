@@ -4,12 +4,14 @@
 
 {{ define "main" }}
     <main aria-role="main">
+        {{ $styles := resources.Get "css/main.css" | minify }}
+        <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
         <div>
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1>{{ .Site.Title }}jsdjsdb</h1>
             {{- with .Site.Params.homeSubtitle }}
                 <p>{{.}}</p>
             {{- end }}
@@ -20,5 +22,79 @@
                 </div>
             {{- end }}
         </div>
+        <div>
+  <h3>Txoeoto</h3>
+  <div class="wrapper">
+
+    <section class="block">
+
+      <div class="each-year">
+        <div class="title">20168454</div>
+        <a class="each-event" href="https://www.google.com" target="_blank">
+          <div class ="nan">
+          <h3>Titulo  
+          </h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae sint ut sit sed impedit, minus, eligendi modi.
+         
+          <img src="https://perform.ie/wp-content/uploads/2019/01/r-u-exam-ready.jpg" alt="Nature" class="responsive"/>
+               </div> 
+           <!-- <div class ="nan"/> -->
+
+        </a>
+
+        <a class="each-event">
+
+          <div class ="nan">
+            <h3>Titulo</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+             <img src="https://perform.ie/wp-content/uploads/2019/01/r-u-exam-ready.jpg" alt="Nature" class="responsive"/>
+      </div>
+        </a>
+
+        <div class="each-event">
+          <div class="nan">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+             <img src="https://perform.ie/wp-content/uploads/2019/01/r-u-exam-ready.jpg" alt="Nature" class="responsive"/>
+          </div>
+          
+        </div>
+
+        <div class="each-event">
+          <div class="event-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+          </div>
+        </div>
+
+        <div class="each-event">
+          <div class="event-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+          </div>
+        </div>
+
+        <div class="each-event">
+          <div class="event-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
+          </div>
+        </div>
+      </div>
+    
+
+         <div class="line"/>
+ </section>
+
+    <section class="block">
+      <div class="each-year">
+        <div class="title">2015</div>
+        
+        <div class="each-event">
+          <div class="event-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+      <div class="line"/>
+    </section>
+  </div>
+</div>
     </main>
 {{ end }}
