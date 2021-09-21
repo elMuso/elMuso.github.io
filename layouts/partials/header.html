@@ -1,0 +1,98 @@
+<header class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+    .mtrig{
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: none;
+    }
+    .pfix{
+    height: 24px;
+    }
+    .dfix{
+    right: 0px;
+    }
+    .mbut{
+    padding: 0px 20px 0px 20px;
+    }
+    .ffix{
+        margin-right: 10px;
+    }
+    .zma{
+       text-align: center !important;
+       display: block;
+       margin: 6px 0px 6px 0px !important;
+       padding:0px !important;
+    }
+    @media (max-width: 684px) {
+    .mtrig {
+    display: block;
+    }
+    .mbut{
+    width: 0px;
+    visibility: hidden;
+    padding: 0px;
+    }
+    }
+    </style>
+    <span class="header__inner">
+        <a href="{{ .Site.BaseURL | relLangURL }}" style="text-decoration: none;">
+            <div class="logo ffix">
+                <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
+            </div>
+        </a>
+        <span class="header__right">
+            
+            <div class="submenu pfix">
+                <li class="dropdown">
+                    
+                    <a href="javascript:void(0)" class="dropbtn">
+                        <span class="mtrig"  >
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                            </svg>
+                        </span></a>
+                        <div class="dropdown-content dfix">
+                            {{ range .Site.Menus.main -}}
+                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                            {{- end }}
+                            {{ if .Site.IsMultiLingual }}
+                            <hr/>
+                            <h6 class="zma">language</h6>
+                            <a class="zma" title="{{ .Language }}" href="">{{ .Language }}</a>
+                            {{ range $.Translations }}
+                            <a class="zma" title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </li>
+                </div>
+                
+                {{ range .Site.Menus.main -}}
+                <a class = "mbut" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                {{- end }}
+                
+                <span id="mhidden" class="theme-toggle not-selectable pfix" style="display:none">{{ partial "theme-toggle-icon.html" . }}</span>
+                 <div class="submenu">
+            <li class="dropdown mbut">
+                <a href="javascript:void(0)" class="dropbtn">{{ .Language }}</a>
+                <div class="dropdown-content">
+                    {{ if .Site.IsMultiLingual }}
+                        {{ range $.Translations }}
+                            <a title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </li>
+        </div>
+            </span>
+        </span>
+         <script type="text/javascript">
+document.getElementById('mhidden').style.display='block';
+</script>
+    </header>

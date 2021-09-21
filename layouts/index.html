@@ -1,17 +1,14 @@
 {{ define "body" }}
-<body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+<body>
   {{ end }}
   {{ define "main" }}
   <main aria-role="main">
     {{ $styles := resources.Get "css/main.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-    <div>
-      {{ if .Site.Params.Portrait.Path }}
-      <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-      {{ end }}
-      <h1>{{ .Site.Title }}</h1>
+    <div class="mpage">
+      <h1 style="margin:0px; padding: 1em">{{ .Site.Title }}</h1>
       {{- with .Site.Params.homeSubtitle }}
-      <p>{{.}}</p>
+      <p style="margin:0px; padding: 0 1em 0 1em">{{.}}</p>
       {{- end }}
       {{- with .Site.Params.social }}
       <div>

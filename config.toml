@@ -15,15 +15,13 @@ paginate     = 10
   homeSubtitle = "Aquí encontraras un listado de contenidos digitales (libros) que se producieron a lo largo de mi carrera"
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
-
   # Enable sharing buttons, if you like
   enableSharingButtons = true
-
+  EnableGlobalLanguageMenu = true
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
-
 
 [taxonomies]
   tag      = "tags"
