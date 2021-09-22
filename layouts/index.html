@@ -2,14 +2,26 @@
 <body>
   {{ end }}
   {{ define "main" }}
-  <main aria-role="main">
+  <main class="bsize" aria-role="main">
     {{ $styles := resources.Get "css/main.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
     <div class="mpage">
-      <h1 style="margin:0px; padding: 1em">{{ .Site.Title }}</h1>
+      <h1 style="margin:0px; padding: 1em;padding-bottom: 10px">{{ .Site.Title }}</h1>
       {{- with .Site.Params.homeSubtitle }}
-      <p style="margin:0px; padding: 0 1em 0 1em">{{.}}</p>
+      <div class ="welcometc">
+        <p class="welcomet">{{.}}</p>
+      </div>
       {{- end }}
+
+      <div class="buttonPanel">
+{{ $nbtn := int (T "rle") }}
+        {{ range $i, $sequence :=  (seq $nbtn) }}
+        {{ $tec := string $i }}
+        {{ $tuc := (printf "dw%s" $tec) }}
+   
+        <a href="aa/" class="ban3">{{ T $tuc }}</a>
+{{ end }}
+      </div>
       {{- with .Site.Params.social }}
       <div>
         {{ partial "social-icons.html" . }}

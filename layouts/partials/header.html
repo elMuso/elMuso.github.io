@@ -1,5 +1,4 @@
 <header class="header">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <style>
     .mtrig{
     width: 24px;
@@ -20,17 +19,42 @@
     padding: 0px 20px 0px 20px;
     }
     .ffix{
-        margin-right: 10px;
+    margin-right: 10px;
     }
     .zma{
-       text-align: center !important;
-       display: block;
-       margin: 6px 0px 6px 0px !important;
-       padding:0px !important;
+    text-align: center !important;
+    display: block;
+    margin: 6px 0px 6px 0px !important;
+    padding:0px !important;
+    }
+    .darkarea{
+    z-index: 99997;
+    background-color: #00000040;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display:none;
+    position:absolute;
+        
+    bottom: 0px;
+    }
+    .ldro:hover .darkarea{
+        display: block;
+    }
+    .darkarea:hover{
+        display: none;
+    }
+    .amarg{
+        margin-top: 70px;
+        margin-right: 5px;
     }
     @media (max-width: 684px) {
     .mtrig {
     display: block;
+    }
+    .amarg{
+        margin-top: 90px;
+        margin-right: 5px;
     }
     .mbut{
     width: 0px;
@@ -48,27 +72,29 @@
         <span class="header__right">
             
             <div class="submenu pfix">
-                <li class="dropdown">
-                    
-                    <a href="javascript:void(0)" class="dropbtn">
+                <li class="dropdown ldro">
+                    <a href="javascript:void(0)" class="dropbtn"  id="mbutton">
                         <span class="mtrig"  >
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
                             </svg>
                         </span></a>
-                        <div class="dropdown-content dfix">
-                            {{ range .Site.Menus.main -}}
-                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-                            {{- end }}
-                            {{ if .Site.IsMultiLingual }}
-                            <hr/>
-                            <h6 class="zma">language</h6>
-                            <a class="zma" title="{{ .Language }}" href="">{{ .Language }}</a>
-                            {{ range $.Translations }}
-                            <a class="zma" title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
-                            {{ end }}
-                            {{ end }}
+                        
+                        <div class="darkarea" id="mback">
+                            <div class="dropdown-content dfix amarg"  id="mcont">
+                                {{ range .Site.Menus.main -}}
+                                <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                                {{- end }}
+                                {{ if .Site.IsMultiLingual }}
+                                <hr/>
+                                <h6 class="zma">language</h6>
+                                <a class="zma" title="{{ .Language }}" href="">{{ .Language }}</a>
+                                {{ range $.Translations }}
+                                <a class="zma" title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                                {{ end }}
+                                {{ end }}
+                            </div>
                         </div>
                     </li>
                 </div>
@@ -76,23 +102,40 @@
                 {{ range .Site.Menus.main -}}
                 <a class = "mbut" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                 {{- end }}
-                
-                <span id="mhidden" class="theme-toggle not-selectable pfix" style="display:none">{{ partial "theme-toggle-icon.html" . }}</span>
-                 <div class="submenu">
-            <li class="dropdown mbut">
-                <a href="javascript:void(0)" class="dropbtn">{{ .Language }}</a>
-                <div class="dropdown-content">
-                    {{ if .Site.IsMultiLingual }}
-                        {{ range $.Translations }}
+                <span id="withjs" class="theme-toggle not-selectable pfix" style="display:none">{{ partial "theme-toggle-icon.html" . }}</span>
+                <div class="submenu" style="z-index: 9999;">
+                    <li class="dropdown mbut">
+                        <a href="javascript:void(0)" class="dropbtn">{{ .Language }}</a>
+                        <div class="dropdown-content">
+                            {{ if .Site.IsMultiLingual }}
+                            {{ range $.Translations }}
                             <a title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
-                        {{ end }}
-                    {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </li>
                 </div>
-            </li>
-        </div>
             </span>
         </span>
-         <script type="text/javascript">
-document.getElementById('mhidden').style.display='block';
-</script>
+        <script type="text/javascript">
+        document.getElementById('withjs').style.display='block';
+        const _con = document.getElementById('mcont').style;
+        const _bet = document.getElementById('mback');
+        reloadMenu();
+
+        window.onload = function() {
+        document.getElementById('mbutton').onclick = function() {
+        _con.display='block';
+        _bet.style.display="block";
+        };
+        _bet.onclick = reloadMenu;
+        };
+
+        function reloadMenu() {
+        _con.display='none';
+        _bet.style.display="none";
+        _bet.style.position= "fixed";
+        
+        }
+        </script>
     </header>
