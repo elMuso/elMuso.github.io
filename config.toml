@@ -12,7 +12,6 @@ paginate     = 10
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
   enableThemeToggle = true
-  homeSubtitle = "Aquí encontraras un listado de contenidos digitales (libros) que se producieron a lo largo de mi carrera, haz click en los botones para descargarlos"
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
   # Enable sharing buttons, if you like
@@ -29,25 +28,29 @@ paginate     = 10
 
 [languages]
   [languages.es]
-    title = "El Muso - Teoría Musical"
+  homeSubtitle = "Una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"
+    homedownloadprompt = "Para descargar cada contenido, haz click sobre el"
+    title = "Otro blog de teoría musical"
     subtitle = "Preservación y enseñanza musical"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Ver más publicaciones"
 
     [languages.es.params.logo]
-      logoText = "El Muso - Teoría Musical"
+      logoText = "ElMuso.github.io"
       logoHomeLink = "/"
 
   [languages.en]
-    title = "El Muso - Music Theory"
+  homeSubtitle = "A group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
+    homedownloadprompt = "To download the content, just click it"
+    title = "Another music theory blog"
     subtitle = "Musical preservation and teaching"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "El Muso - Music Theory"
+      logoText = "ElMuso.github.io"
       logoHomeLink = "/"
     # or
     #

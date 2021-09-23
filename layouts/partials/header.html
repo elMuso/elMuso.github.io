@@ -45,16 +45,12 @@
         display: none;
     }
     .amarg{
-        margin-top: 70px;
+        margin-top: 40px;
         margin-right: 5px;
     }
     @media (max-width: 684px) {
     .mtrig {
     display: block;
-    }
-    .amarg{
-        margin-top: 90px;
-        margin-right: 5px;
     }
     .mbut{
     width: 0px;
@@ -62,6 +58,13 @@
     padding: 0px;
     }
     }
+     @media (max-width: 360px) {
+    .amarg{
+        margin-top: 80px;
+        margin-right: 5px;
+    }
+
+     }
     </style>
     <span class="header__inner">
         <a href="{{ .Site.BaseURL | relLangURL }}" style="text-decoration: none;">

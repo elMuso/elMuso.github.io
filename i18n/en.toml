@@ -2,13 +2,22 @@
 	other = "4"
 
 [dw0]
-	other = 'Download "El ABC de la teoría musical 1" [PDF][ES]'
+	other = 'El ABC de la teoría musical 1 [PDF][ES]'
 
 [dw1]
-	other = 'Download "El ABC de la teoría musical 2" [PDF][ES]'
+	other = 'El ABC de la teoría musical 2 [PDF][ES]'
 
 [dw2]
-	other = 'Download the exercises book [PDF][ES]'
+	other = 'Music theory exercises [PDF][ES]'
 
 [dw3]
-	other = 'Download "De Obras Bolivianas" [PDF]'
+	other = 'De Obras Bolivianas [PDF]'
+
+[dl0]
+	other = 'http://'
+[dl1]
+	other = 'http://'
+[dl2]
+	other = 'http://'
+[dl3]
+	other = 'http://'
