@@ -26,6 +26,18 @@
     [data-theme=dark] .progress-bar{
     background: var(--dark-text);
     }
+  .iconz{
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    /*fill: #00ff00;*/
+  }
+   [data-theme=dark] .iconz{
+    fill: var(--dark-text);
+    }
+     [data-theme=light] .iconz{
+    fill: var(--light-text);
+    }
 @media (max-width:600px) {
   .bigimage{
      max-width:100%;
@@ -35,3 +47,8 @@
   float: none;
   }
 }
+ @media (max-width: 684px) {
+  .iconz{
+    margin: .0px 10px;
+  }
+ }

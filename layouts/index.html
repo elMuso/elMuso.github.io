@@ -29,7 +29,7 @@
           <div class="each-year">
             <div class="yearz">{{ .Key }}</div>
             {{ range  where .Pages ".Params.categories" "intersect" (slice "Anuncio") }}
-            <a class="each-event" href={{.Permalink}} target="_blank">
+            <a class="each-event" href={{.Permalink}} >
               <div class ="nan">
                 <h3>{{.Title}}  </h3>
                 <p>{{.Summary}}</p>
