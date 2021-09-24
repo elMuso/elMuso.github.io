@@ -20,13 +20,8 @@
    <svg xmlns="http://www.w3.org/2000/svg"  class="dwicon"><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></svg></span>{{ T $tuc }}</a>
 {{ end }}
       
-      {{- with .Site.Params.social }}
-      <div>
-        {{ partial "social-icons.html" . }}
-      </div>
-      {{- end }}
     </div>
-    <div>
+
       <div class="wrapper">
         {{ with .Site.GetPage "section" "posts" }}
         {{ range (.Data.Pages.GroupByDate "2006") }}
@@ -51,6 +46,18 @@
           {{ end }}
         </div>
         
+      <div class="arcn">
+       <p style="text-align: center; width: 100%; align-self: left; font-weight:bold;margin: 0px;padding:10px">Recientes:</p>
+      {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
+            <div class="minp">
+                  <a href="{{.Permalink}}" style="width:100%;height: 100%; text-decoration: none;">
+                        <p class="ptitles">{{.Title}}</p>
+                        <p style="font-size: 11px;margin: 0px;text-align: left;">{{.Date.Format "02-01"}} - {{.ReadingTime}}m</p>
+                </a>
+            </div>
+        
+    
+      {{end}}
       </div>
     </main>
     {{ end }}

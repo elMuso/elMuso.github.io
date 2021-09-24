@@ -1,6 +1,5 @@
 {{ define "main" }}
-  <main class="post">
-dfdfdfdf
+  <main class="post bsize">
     <div class="post-info">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
@@ -22,45 +21,23 @@ dfdfdfdf
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </h1>
 
+
+
+
+
+      <div class="post-content" >
+        <a href="{{.Params.downloadUrl}}"><img src="/libro-teoria-musical.jpg" class="bigimage"/>
+   </a>
       {{ with .Params.Description }}
         <div class="post-excerpt">{{ . }}</div>
       {{ end }}
-
-      {{ if .Params.Cover }}
-        <figure class="post-cover">
-          <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
-          
-          {{ if .Params.CoverCaption }}
-            <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-          {{ end }}
-        </figure>
-      {{ end }}
-
-      {{- if .Params.toc }}
-        <hr />
-        <aside id="toc">
-          <div class="toc-title">{{ i18n "tableOfContents" }}</div>
-          {{ .TableOfContents }}
-        </aside>
-        <hr />
-      {{- end }}
-
-      {{ if .Params.Audio }}
-        <div class="post-audio">
-          <audio controls>
-            <source src="{{ .Params.Audio }}">
-          </audio>
-        </div>
-      {{ end }}
-
-      <div class="post-content">
         {{ .Content }}
+  <p style="border-bottom: 1px solid #00000020; overflow: hidden; margin: 20px 0px"/>
       </div>
     </article>
 
-    <hr />
 
-    <div class="post-info">
+    <div class="post-info" style="margin:0px;">
       {{ partial "tags.html" .Params.tags }}
       {{ partial "categories.html" . }}
 
@@ -129,11 +106,5 @@ dfdfdfdf
         </div>
       {{ end }}
     {{ end }}
-
-    {{ if .Site.Params.Commento.Url }}
-      <script defer src={{ .Site.Params.Commento.Url }}></script>
-      <div id="commento"></div>
-    {{ end }}
-
   </main>
 {{ end }}

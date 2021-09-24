@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header rmp">
     <style>
     .mtrig{
     width: 24px;
@@ -16,7 +16,7 @@
     right: 0px;
     }
     .mbut{
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 0px;
     }
     .ffix{
     margin-right: 10px;
@@ -45,9 +45,22 @@
         display: none;
     }
     .amarg{
-        margin-top: 40px;
+        margin-top: 67px;
         margin-right: 5px;
     }
+    .bsizea{
+  width: 100%;
+  padding: 20px;
+  max-width: 1100px;
+}
+.rmp{
+    padding: 0px;
+}
+.ovflw{
+   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
     @media (max-width: 684px) {
     .mtrig {
     display: block;
@@ -58,18 +71,11 @@
     padding: 0px;
     }
     }
-     @media (max-width: 360px) {
-    .amarg{
-        margin-top: 80px;
-        margin-right: 5px;
-    }
-
-     }
     </style>
-    <span class="header__inner">
-        <a href="{{ .Site.BaseURL | relLangURL }}" style="text-decoration: none;">
+    <span class=" bsizea header__inner">
+        <a href="{{ .Site.BaseURL | relLangURL }}" style="text-decoration: none;overflow: hidden;">
             <div class="logo ffix">
-                <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
+                <span class="logo__text ovflw">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
             </div>
         </a>
         <span class="header__right">
@@ -107,7 +113,7 @@
                 {{- end }}
                 <span id="withjs" class="theme-toggle not-selectable pfix" style="display:none">{{ partial "theme-toggle-icon.html" . }}</span>
                 <div class="submenu" style="z-index: 9999;">
-                    <li class="dropdown mbut">
+                    <li class="dropdown mbut" style="margin-left: 10px;">
                         <a href="javascript:void(0)" class="dropbtn">{{ .Language }}</a>
                         <div class="dropdown-content">
                             {{ if .Site.IsMultiLingual }}

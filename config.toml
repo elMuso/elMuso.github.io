@@ -4,9 +4,18 @@ languageCode = "en-us"
 defaultContentLanguage = "es"
 theme        = "hello-friend-ng"
 paginate     = 10
+collaborators = [
+  {name = "Alex", location = "GR", imgurl =""},
+  {name = "John", location = "US", imgurl =""}
+]
 
-
+[author]
+authors = [
+  {name = "El Muso", location = ""}
+  # {name = "John", location = "US"}
+]
 [params]
+  customCSS = ["/style.css"]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -22,6 +31,7 @@ paginate     = 10
   keywords = "homepage, blog"
   images = [""]
 
+
 [taxonomies]
   tag      = "tags"
   category = "categories"
@@ -35,7 +45,12 @@ paginate     = 10
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Ver más publicaciones"
-
+    main=[
+      {name="Sobre nosotros",url="/about"},
+      {name="Contacto",url="/contact"},
+      {name="Licencias",url="/licenses"},
+      {name="Colaboradores",url="/helpers"},
+    ]
     [languages.es.params.logo]
       logoText = "ElMuso.github.io"
       logoHomeLink = "/"
@@ -48,7 +63,12 @@ paginate     = 10
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
-
+    main=[
+      {name="About us",url="/about"},
+      {name="Contact",url="/contact"},
+      {name="Licences",url="/licenses"},
+      {name="Collaborators",url="/helpers"},
+    ]
     [languages.en.params.logo]
       logoText = "ElMuso.github.io"
       logoHomeLink = "/"
