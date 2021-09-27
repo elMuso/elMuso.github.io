@@ -1,20 +1,20 @@
 +++
 categories = ["Anuncio","2021","Libro"]
 date = "2021-07-02"
-description = "Lanzamiento inicial de un libro de partituras"
+description = "Initial release of a sheet compilation book"
 linktitle = ""
-title = "De Obras Bolivianas 1ª Edición"
+title = "De Obras Bolivianas 1º Edition"
 slug = "de-obras-bolivianas"
 type = "image"
 previewUrl = "/de-obras-bolivianas.jpg"
 downloadUrl = "https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf"
 +++
 
-Esta es la primera edición de esta recopilación, contiene unos cuantos arreglos y transcripciones de partituras originales para piano. 12 obras en total. Dirigido a quien le sirva.
+This is the first edition of this recopilation, it contains some arrangements and transcriptions of original sheets for piano. In total 12 music pieces. For interested people.
 
 **CC 4.0 N.C**<!--more-->
 
-### Listado de obras incluidas en este libro
+### The musical pieces included in this book
 
 
 * A Pleno Sol - Miguel Ángel Valda 
@@ -30,9 +30,9 @@ Esta es la primera edición de esta recopilación, contiene unos cuantos arreglo
 * Panchita - Miguel Ángel Valda
 * Verbenita - Teófilo Vargas
 
-### El libro es de uso libre y gratuito bajo la licencia CC 4.0 Attribution N.C
+### This book is free and open under the license CC 4.0 Attribution N.C
 
-Es fruto de meses de incansable trabajo e investigación, la mejor manera de agradecer es compartiéndolo.
+Is the result of endless work and investigation, the best way of saying thanks is sharing it... (to someone who reads music... of course) :D
 
-[Haz clic aquí o en la imagen para descargar el libro en formato PDF](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
+[Click here or in the image to download the book in PDF format](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
 

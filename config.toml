@@ -46,10 +46,10 @@ authors = [
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Ver más publicaciones"
     main=[
-      {name="Sobre nosotros",url="/about"},
-      {name="Contacto",url="/contact"},
+      {name="Información/Contacto",url="/about"},
       {name="Licencias",url="/licenses"},
-      {name="Colaboradores",url="/helpers"},
+      {name="Inicio",url="/"}
+      # {name="Colaboradores",url="/helpers"},
     ]
     [languages.es.params.logo]
       logoText = "ElMuso.github.io"
@@ -64,20 +64,15 @@ authors = [
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
     main=[
-      {name="About us",url="/about"},
-      {name="Contact",url="/contact"},
+      {name="About us/Contact",url="/about"},
       {name="Licences",url="/licenses"},
-      {name="Collaborators",url="/helpers"},
+      {name="Home",url="/"}
+      # {name="Collaborators",url="/helpers"},
     ]
     [languages.en.params.logo]
       logoText = "ElMuso.github.io"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
-  # And you can even create generic menu
 [menu]
   [[menu.main]]
     identifier = "blog"
