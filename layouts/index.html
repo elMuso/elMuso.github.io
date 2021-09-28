@@ -2,7 +2,7 @@
 <body>
   {{ end }}
   {{ define "main" }}
-  <main class="bsize" aria-role="main">
+  <main class="bsize">
     {{ $styles := resources.Get "css/main.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
       <h1 class="mtitle">{{ .Site.Title }}</h1>
@@ -31,7 +31,7 @@
             {{ range  where .Pages ".Params.categories" "intersect" (slice "Anuncio") }}
             <a class="each-event" href={{.Permalink}} >
               <div class ="nan">
-                <h3>{{.Title}}  </h3>
+                <h2 style="margin-top: 20px">{{.Title}}  </h2>
                 <p>{{.Summary}}</p>
                 <p>{{ .Date.Format "02-01-2006"}}</p>
                 <img src={{.Params.previewUrl}} alt="Nature" class="responsive"/>

@@ -2,7 +2,7 @@ baseurl      = "localhost"
 title        = "El Muso"
 languageCode = "en-us"
 defaultContentLanguage = "es"
-theme        = "hello-friend-ng"
+
 paginate     = 10
 collaborators = [
   {name = "Alex", location = "GR", imgurl =""},
