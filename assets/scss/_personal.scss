@@ -61,7 +61,10 @@
 	$media-size-phone}
 	{padding:10px 30px;margin:10px;}
 }
-.zpanel{@include hbcolor;padding:40px 40px 40px 20px;}
+.zpanel{@include hbcolor;padding:40px;
+	@media #{
+	$media-size-phone}
+	{padding: 40px 40px 40px 20px;}}
 .zsec{h2{display:block;text-align:center;margin-top:20px;}
 	img{object-fit:cover;position:absolute;height:100%;width:100%;left:0px;top:0px;z-index:-1;opacity:30%;}
 	z-index:1;position:relative;
@@ -90,3 +93,73 @@
 		{left:0%;}
 	}
 }
+.zscard{
+	@media (prefers-color-scheme:dark){
+	background-image:linear-gradient($dark-background-header,$dark-background);}
+	@media (prefers-color-scheme:light){
+	background-image:linear-gradient($light-background-header,$light-background);}
+	[data-theme=dark] &{background-image:linear-gradient($dark-background-header,$dark-background);}
+	[data-theme=light] &{background-image:linear-gradient($light-background-header,$light-background);}
+	width: 100%;
+	margin: auto;
+	
+:hover{
+		@include hbcolor;
+	}
+	div{
+		@include sbcolor;
+	// opacity: 100%;
+ padding: 10px 20px ;
+  width: 380px; 
+		display: inline-block;	
+
+   border-radius: 8px;
+   margin: 2px;
+   @media #{
+	$media-size-phone}
+	{
+		 width: 300px; 
+		 padding: 5px 10px ;
+	}
+	}
+	a{
+width:100%;height: 100%; text-decoration: none;
+	}
+
+	&.title{
+		background-image: none; 
+ width: 100%; text-align: left; text-overflow: ellipsis;
+    white-space: nowrap;font-weight: bold;
+    overflow: hidden; margin: 0px;
+	}
+	&.info{
+		background-image: none; 
+		
+	
+		font-size: 11px;margin: 0px;text-align: left;
+	}
+}
+.stitle{
+	@include hbcolor;
+
+      width: 100%;
+      display: block;
+      padding: 5px 0px;
+      font-size: 0.8rem; 
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: $light-color-secondary;
+  }
+.post {
+    &.year {
+    	padding: 0px;
+      font-size: 1.6em;
+      margin: 8px 28px;
+      @media #{
+	$media-size-phone}
+	{
+		margin: 4px 18px;
+	}
+    }
+
+  }
