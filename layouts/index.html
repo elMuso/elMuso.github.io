@@ -5,41 +5,35 @@
   <main class="bsize">
     {{ $styles := resources.Get "css/main.css" | minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-      <h1 class="mtitle">{{ .Site.Title }}</h1>
-        <p class="welcomet">{{.Site.Params.homeSubtitle}}</p>
-        <p class="welcomet">{{.Site.Params.homedownloadprompt}}</p>
-    <div class="mpage">
-
-     
-{{ $nbtn := int (T "rle") }}
-        {{ range $i, $sequence :=  (seq $nbtn) }}
-        {{ $tec := string $i }}
-        {{ $tuc := (printf "dw%s" $tec) }}
-
-        <a href="aa/" class="ban3" download><span>
-   <svg xmlns="http://www.w3.org/2000/svg"  class="dwicon"><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></svg></span>{{ T $tuc }}</a>
+      <h1 class="ztitle">{{ .Site.Title }}</h1>
+      <p class="zm1">{{.Site.Params.homeSubtitle}}</p>
+      <p class="zm1">{{.Site.Params.homedownloadprompt}}</p>
+    <div class="zbuttons">
+     {{ range .Site.Params.downloads }}
+        <a href="{{.url}}" download>
+   <svg xmlns="http://www.w3.org/2000/svg"><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></svg>{{.name}}</a>
 {{ end }}
       
     </div>
 
-      <div class="wrapper">
+      <div class="zpanel">
         {{ with .Site.GetPage "section" "posts" }}
         {{ range (.Data.Pages.GroupByDate "2006") }}
-        <section class="block">
-          <div class="each-year">
-            <div class="yearz">{{ .Key }}</div>
+        <section class="zsec">
+          
+            <div class="zsec y">{{ .Key }}</div>
             {{ range  where .Pages ".Params.categories" "intersect" (slice "Anuncio") }}
-            <a class="each-event" href={{.Permalink}} >
-              <div class ="nan">
-                <h2 style="margin-top: 20px">{{.Title}}  </h2>
+            <a class="zsec i" href={{.Permalink}} >
+              <div class ="zsec frame">
+                <h2>{{.Title}}  </h2>
                 <p>{{.Summary}}</p>
                 <p>{{ .Date.Format "02-01-2006"}}</p>
-                <img src={{.Params.previewUrl}} alt="Nature" class="responsive"/>
+                <img src={{.Params.previewUrl}}   />
               </div>
             </a>
             {{ end }}
-          </div>
-          <div class="line"/>
+          
+          <div class="zsec line"/>
           </section>
           
           {{ end }}

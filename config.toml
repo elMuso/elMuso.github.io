@@ -51,6 +51,12 @@ authors = [
       {name="Inicio",url="/"}
       # {name="Colaboradores",url="/helpers"},
     ]
+    downloads=[
+    {name="El ABC de la teoría musical 1 [PDFddddd]",url="/about"},
+    {name="El ABC de la teoría musical 2 [PDF]",url="/about"},
+    {name="Ejercicios de teoría musical [PDF]",url="/about"},
+    {name="De Obras Bolivianas [PDF]",url="/about"},
+    ]
     [languages.es.params.logo]
       logoText = "ElMuso.github.io"
       logoHomeLink = "/"
@@ -68,6 +74,12 @@ authors = [
       {name="Licences",url="/licenses"},
       {name="Home",url="/"}
       # {name="Collaborators",url="/helpers"},
+    ]
+    downloads=[
+    {name="El ABC de la teoría musical 1 [PDF][ES]",url="/about"},
+    {name="El ABC de la teoría musical 2 [PDF][ES]",url="/about"},
+    {name="Music theory exercises [PDF][ES]",url="/about"},
+    {name="De Obras Bolivianas [PDF]",url="/about"},
     ]
     [languages.en.params.logo]
       logoText = "ElMuso.github.io"

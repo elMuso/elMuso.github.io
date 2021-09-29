@@ -1,32 +1,3 @@
-[rle]
-	other = "4"
-
-[dw0]
-	other = 'El ABC de la teoría musical 1 [PDF][ES]'
-
-[dw1]
-	other = 'El ABC de la teoría musical 2 [PDF][ES]'
-
-[dw2]
-	other = 'Music theory exercises [PDF][ES]'
-
-[dw3]
-	other = 'De Obras Bolivianas [PDF]'
-
-[dl0]
-	other = 'http://'
-[dl1]
-	other = 'http://'
-[dl2]
-	other = 'http://'
-[dl3]
-	other = 'http://'
-
-# Translations for English
-# https://gohugo.io/content-management/multilingual/#translation-of-strings
-
-# Generic
-#
 [translations]
 other = "Translations"
 
