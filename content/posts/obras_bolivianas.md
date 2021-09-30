@@ -1,5 +1,5 @@
 +++
-categories = ["Anuncio","2021","Libro"]
+tags = ["Anuncio","2021","Libro"]
 date = "2021-07-02"
 description = "Lanzamiento inicial de un libro de partituras"
 linktitle = ""

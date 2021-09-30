@@ -19,7 +19,7 @@
         <section class="zsec">
           
           <div class="zsec y">{{ .Key }}</div>
-          {{ range  where .Pages ".Params.categories" "intersect" (slice "Anuncio") }}
+          {{ range  where .Pages ".Params.tags" "intersect" (slice "Anuncio" "Announcement") }}
           <a class="zsec i" href={{.Permalink}} >
             <div class ="zsec frame">
               <h2>{{.Title}}  </h2>

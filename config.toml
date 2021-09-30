@@ -14,7 +14,10 @@ authors = [
   {name = "El Muso", location = ""}
   # {name = "John", location = "US"}
 ]
+
+
 [params]
+
   customCSS = ["/style.css"]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -31,11 +34,10 @@ authors = [
   keywords = "homepage, blog"
   images = [""]
 
-
 [taxonomies]
-  tag      = "tags"
-  category = "categories"
-
+# Disable the default taxonomies
+tag = "tags"
+category = ""
 [languages]
   [languages.es]
   homeSubtitle = "Una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"

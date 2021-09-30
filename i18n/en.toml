@@ -5,8 +5,6 @@ other = "Translations"
 other = "Also available in"
 
 
-# 404.html
-#
 [archives]
 other = "Archives"
 
@@ -17,8 +15,6 @@ other = "Home"
 other = "Oops, page not found…"
 
 
-# posts/single.html
-#
 [readingTime]
 one   = "One minute"
 other = "{{ .Count }} minutes"
@@ -32,3 +28,6 @@ other = "{{ .Count }} Words"
 
 [lastModified]
 other = "Last updated"
+
+[enableJavascript]
+other = "Please enable javascript for this feature to work."

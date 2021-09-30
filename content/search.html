@@ -1,0 +1,32 @@
++++
+title = "Search"
+slug = "search"
+type = "personalized"
++++
+<script>
+window.onload = function(){
+  const hasloaded = document.getElementById('searchtheme');
+  console.log("BHS");
+  if(!hasloaded) {
+    const script = document.createElement('script');
+if (chosenThemeIsDark) {
+    script.src = 'https://cse.google.com/cse.js?cx=d333f9d17445714a6';
+  } else if (chosenThemeIsLight) {
+  	script.src = 'https://cse.google.com/cse.js?cx=384e84dead94e66db';
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+   script.src = 'https://cse.google.com/cse.js?cx=d333f9d17445714a6';
+  } else {
+script.src = 'https://cse.google.com/cse.js?cx=384e84dead94e66db';
+  }
+    script.id = 'searchtheme'; 
+    document.body.appendChild(script);
+  }
+}
+</script>
+
+<div class="fixsearch">
+	<noscript>
+		<h4 style="text-align: center; display:block;">Javascript is disabled</h4>
+	</noscript>
+<div class="gcse-search"></div>
+</div>

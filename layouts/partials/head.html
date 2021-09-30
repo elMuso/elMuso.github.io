@@ -39,7 +39,7 @@
     {{ template "_internal/opengraph.html" . }}
 {{ end }}
 
-{{ range .Params.categories }}
+{{ range .Params.tags }}
     <meta property="article:section" content="{{ . }}" />
 {{ end }}
 

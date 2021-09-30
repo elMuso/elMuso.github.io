@@ -1,5 +1,5 @@
 +++
-categories = ["2021","Libro"]
+tags = ["2021","Libro"]
 date = "2021-07-10"
 description = "Lanzamiento inicial de El ABC de la teoría musical"
 linktitle = ""
