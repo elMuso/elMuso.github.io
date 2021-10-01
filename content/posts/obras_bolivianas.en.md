@@ -1,5 +1,5 @@
 +++
-tags = ["Announcement","2021","Book"]
+tags = ["Announcement","2021","Book","Sheets"]
 date = "2021-07-02"
 description = "Initial release of a sheet compilation book"
 linktitle = ""
@@ -34,5 +34,5 @@ This is the first edition of this recopilation, it contains some arrangements an
 
 Is the result of endless work and investigation, the best way of saying thanks is sharing it... (to someone who reads music... of course) :D
 
-[Click here or in the image to download the book in PDF format](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
+[**Click here or in the image to download the book in PDF format**](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
 

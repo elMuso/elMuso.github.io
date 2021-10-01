@@ -73,7 +73,7 @@
 		$media-size-phone}
 		{text-align:left;}
 	}
-	&.i{@include tscolor;display:block;text-decoration:none;margin-bottom:20px;width:300px;margin-left:calc(50% + 20px);border-width:2px;border-style:groove;
+	&.i{@include tscolor;display:block;text-decoration:none;margin-bottom:20px;width:300px;margin-left:calc(50% + 20px);border-width:2px;border-style:solid;
 		&:before{@include tscolorb;content:"";position:absolute;top:calc(50% - 8px);left:-29px;width:16px;height:16px;border-radius:50%;}
 		&:nth-child(odd){margin-left:calc(50%  - 318px);
 			&:before{left:calc(100% + 13px);}

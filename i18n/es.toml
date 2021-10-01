@@ -1,6 +1,12 @@
 [translations]
 other = "Traducciones"
 
+[previous]
+other = "Anterior"
+
+[next]
+other = "Siguiente"
+
 [postAvailable]
 other = "También disponible en"
 

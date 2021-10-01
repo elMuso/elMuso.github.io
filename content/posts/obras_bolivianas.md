@@ -1,5 +1,5 @@
 +++
-tags = ["Anuncio","2021","Libro"]
+tags = ["Anuncio","2021","Libro","Partituras"]
 date = "2021-07-02"
 description = "Lanzamiento inicial de un libro de partituras"
 linktitle = ""
@@ -34,5 +34,5 @@ Esta es la primera edición de esta recopilación, contiene unos cuantos arreglo
 
 Es fruto de meses de incansable trabajo e investigación, la mejor manera de agradecer es compartiéndolo.
 
-[Haz clic aquí o en la imagen para descargar el libro en formato PDF](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
+[**Haz clic aquí o en la imagen para descargar el libro en formato PDF**](https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf)
 

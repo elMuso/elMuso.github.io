@@ -8,7 +8,7 @@
     <p class="zm1">{{.Site.Params.homedownloadprompt}}</p>
     <div class="zbuttons">
       {{ range .Site.Params.downloads }}
-      <a href="{{.url}}" download>
+      <a href="{{.url}}">
         <svg xmlns="http://www.w3.org/2000/svg"><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></svg>{{.name}}</a>
         {{ end }}
         
@@ -25,7 +25,7 @@
               <h2>{{.Title}}  </h2>
               <p>{{.Summary}}</p>
               <p>{{ .Date.Format "02-01-2006"}}</p>
-              <img src={{.Params.previewUrl}}   />
+              <img src={{.Params.previewUrl}} alt="cover"   />
             </div>
           </a>
           {{ end }}

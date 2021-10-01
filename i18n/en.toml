@@ -1,11 +1,19 @@
 [translations]
 other = "Translations"
 
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
 [postAvailable]
 other = "Also available in"
 
-
 [archives]
+other = "Archives"
+
+[tags]
 other = "Archives"
 
 [home]
@@ -13,7 +21,6 @@ other = "Home"
 
 [notFound]
 other = "Oops, page not found…"
-
 
 [readingTime]
 one   = "One minute"

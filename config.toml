@@ -46,7 +46,7 @@ category = ""
     subtitle = "Preservación y enseñanza musical"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Ver más publicaciones"
+    readOtherPosts = "Más publicaciones"
     main=[
       {name="Información/Contacto",url="/about"},
       {name="Licencias",url="/licenses"},
@@ -54,10 +54,10 @@ category = ""
       # {name="Colaboradores",url="/helpers"},
     ]
     downloads=[
-    {name="El ABC de la teoría musical 1 [PDFddddd]",url="/about"},
-    {name="El ABC de la teoría musical 2 [PDF]",url="/about"},
-    {name="Ejercicios de teoría musical [PDF]",url="/about"},
-    {name="De Obras Bolivianas [PDF]",url="/about"},
+    {name="El ABC de la teoría musical 1 [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20musical%201.pdf"},
+    {name="El ABC de la teoría musical 2 [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20Musical%202.pdf"},
+    {name="Ejercicios de teoría musical [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/CUADERNO%20DE%20EJERCICIOS.pdf"},
+    {name="De Obras Bolivianas [PDF]",url="https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf"},
     ]
     [languages.es.params.logo]
       logoText = "ElMuso.github.io"
@@ -70,7 +70,7 @@ category = ""
     subtitle = "Musical preservation and teaching"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+    readOtherPosts = "Other posts"
     main=[
       {name="About us/Contact",url="/about"},
       {name="Licences",url="/licenses"},
@@ -78,10 +78,10 @@ category = ""
       # {name="Collaborators",url="/helpers"},
     ]
     downloads=[
-    {name="El ABC de la teoría musical 1 [PDF][ES]",url="/about"},
-    {name="El ABC de la teoría musical 2 [PDF][ES]",url="/about"},
-    {name="Music theory exercises [PDF][ES]",url="/about"},
-    {name="De Obras Bolivianas [PDF]",url="/about"},
+    {name="El ABC de la teoría musical 1 [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20musical%201.pdf"},
+    {name="El ABC de la teoría musical 2 [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20Musical%202.pdf"},
+    {name="Music theory exercises [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/CUADERNO%20DE%20EJERCICIOS.pdf"},
+    {name="De Obras Bolivianas [PDF]",url="https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf"},
     ]
     [languages.en.params.logo]
       logoText = "ElMuso.github.io"
@@ -92,3 +92,7 @@ category = ""
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "tags/"
