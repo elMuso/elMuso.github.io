@@ -1,5 +1,6 @@
-baseurl      = "/"
+baseurl      = "https://elmuso.github.io"
 title        = "El Muso"
+ canonifyurls = true
 languageCode = "en-us"
 defaultContentLanguage = "es"
 enableRobotsTXT = true

@@ -2,72 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Another music theory blog</title>
-    <link>elmuso.github.io/en/index.html</link>
+    <link>https://elmuso.github.io/en/index.html</link>
     <description>Recent content on Another music theory blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="elmuso.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://elmuso.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021</title>
-      <link>elmuso.github.io/en/tags/2021/</link>
+      <link>https://elmuso.github.io/en/tags/2021/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/2021/</guid>
+      <guid>https://elmuso.github.io/en/tags/2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Announcement</title>
-      <link>elmuso.github.io/en/tags/announcement/</link>
+      <link>https://elmuso.github.io/en/tags/announcement/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/announcement/</guid>
+      <guid>https://elmuso.github.io/en/tags/announcement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Book</title>
-      <link>elmuso.github.io/en/tags/book/</link>
+      <link>https://elmuso.github.io/en/tags/book/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/book/</guid>
+      <guid>https://elmuso.github.io/en/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music Theory</title>
-      <link>elmuso.github.io/en/tags/music-theory/</link>
+      <link>https://elmuso.github.io/en/tags/music-theory/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/music-theory/</guid>
+      <guid>https://elmuso.github.io/en/tags/music-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>elmuso.github.io/en/tags/</link>
+      <link>https://elmuso.github.io/en/tags/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/</guid>
+      <guid>https://elmuso.github.io/en/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archived</title>
-      <link>elmuso.github.io/en/tags/archived/</link>
+      <link>https://elmuso.github.io/en/tags/archived/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/archived/</guid>
+      <guid>https://elmuso.github.io/en/tags/archived/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sheets</title>
-      <link>elmuso.github.io/en/tags/sheets/</link>
+      <link>https://elmuso.github.io/en/tags/sheets/</link>
       <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>elmuso.github.io/en/tags/sheets/</guid>
+      <guid>https://elmuso.github.io/en/tags/sheets/</guid>
       <description></description>
+    </item>
+    
+  </channel>
+</rss>
+>https://elmuso.github.io/en/posts/libro-teoria-musical/</guid>
+      <description>&lt;p&gt;This is the first edition of my music theory book. A compilation of music theory lineal lessons , from a personal perspective and unique. With some redaction errors&amp;hellip; and in spanish.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CC 4.0 N.C&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>De Obras Bolivianas 1º Edition</title>
+      <link>https://elmuso.github.io/en/posts/de-obras-bolivianas/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://elmuso.github.io/en/posts/de-obras-bolivianas/</guid>
+      <description>&lt;p&gt;This is the first edition of this recopilation, it contains some arrangements and transcriptions of original sheets for piano. In total 12 music pieces. For interested people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CC 4.0 N.C&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://elmuso.github.io/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elmuso.github.io/en/about/</guid>
+      <description>¡Hi! I&amp;rsquo;m El Muso, but of course, that&amp;rsquo;s not my real name. I&amp;rsquo;m a musician, writer and researcher in my free time, right now I&amp;rsquo;m still studying music, but at the same time I give some time to make content intermittently
+Asides that, I&amp;rsquo;m a content creator that sometimes is a little impulsive and that is the reason of my adventure in social networks, showing that music theory doesn&amp;rsquo;t need to be hard.</description>
+    </item>
+    
+    <item>
+      <title>Licencias</title>
+      <link>https://elmuso.github.io/en/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elmuso.github.io/en/licenses/</guid>
+      <description>All the content distributed here is under:
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) You are free to:
+ Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material  Under the following terms:
+  Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</description>
     </item>
     
   </channel>
