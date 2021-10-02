@@ -14,10 +14,10 @@ other = "También disponible en"
 other = "Archivo"
 
 [home]
-other = "Home"
+other = "Volver al inicio"
 
 [notFound]
-other = "Oops, página no encontrada…"
+other = "La pagina que intentabas encontrar aun no se compone..."
 
 [readingTime]
 one   = "Un minuto"

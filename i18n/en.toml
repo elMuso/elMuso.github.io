@@ -17,10 +17,10 @@ other = "Archives"
 other = "Archives"
 
 [home]
-other = "Home"
+other = "Go back to homepage"
 
 [notFound]
-other = "Oops, page not found…"
+other = "The page that you tried to find, is not composed yet..."
 
 [readingTime]
 one   = "One minute"

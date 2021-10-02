@@ -1,8 +1,8 @@
-baseurl      = "localhost"
+baseurl      = "elmuso.github.io"
 title        = "El Muso"
 languageCode = "en-us"
 defaultContentLanguage = "es"
-
+enableRobotsTXT = true
 paginate     = 10
 collaborators = [
   {name = "Alex", location = "GR", imgurl =""},
@@ -33,6 +33,10 @@ authors = [
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
+  [params.favicon.color]
+    mask = "#101010"
+    msapplication = "#101010"
+    theme = "#101010"
 
 [taxonomies]
 # Disable the default taxonomies
@@ -40,11 +44,11 @@ tag = "tags"
 category = ""
 [languages]
   [languages.es]
-  homeSubtitle = "Una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"
+  homeSubtitle = "¡Bienvenido a mi blog! Aqui publico una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"
     homedownloadprompt = "Para descargar cada contenido, haz click sobre el"
     title = "Otro blog de teoría musical"
     subtitle = "Preservación y enseñanza musical"
-    keywords = ""
+    keywords = "blog teoría musical gratis gratuita pdf libro clases musica avanzada armonia"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Más publicaciones"
     main=[
@@ -64,11 +68,11 @@ category = ""
       logoHomeLink = "/"
 
   [languages.en]
-  homeSubtitle = "A group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
+  homeSubtitle = "¡Welcome to my blog! Here i publish a group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
     homedownloadprompt = "To download the content, just click it"
     title = "Another music theory blog"
     subtitle = "Musical preservation and teaching"
-    keywords = ""
+    keywords = "blog music theory free pdf book class music advanced harmony"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Other posts"
     main=[

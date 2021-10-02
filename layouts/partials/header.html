@@ -88,7 +88,7 @@
                             {{ if .Site.IsMultiLingual }}
                             <hr/>
                             <h6 class="zma">language</h6>
-                            <a class="zma" title="{{ .Language }}" href="">{{ .Language }}</a>
+                            <a class="zma" title="{{ .Language }}" href="/">{{ .Language }}</a>
                             {{ range $.Translations }}
                             <a class="zma" title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
                             {{ end }}
