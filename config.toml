@@ -1,4 +1,4 @@
-baseurl      = "elmuso.github.io"
+baseurl      = "/"
 title        = "El Muso"
 languageCode = "en-us"
 defaultContentLanguage = "es"
