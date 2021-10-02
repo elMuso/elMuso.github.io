@@ -4,6 +4,7 @@ languageCode = "en-us"
 defaultContentLanguage = "es"
 enableRobotsTXT = true
 paginate     = 10
+publishDir = "docs"
 collaborators = [
   {name = "Alex", location = "GR", imgurl =""},
   {name = "John", location = "US", imgurl =""}
