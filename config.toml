@@ -48,7 +48,7 @@ category = ""
   [languages.es]
   homeSubtitle = "¡Bienvenido a mi blog! Aqui publico una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"
     homedownloadprompt = "Para descargar cada contenido, haz click sobre el"
-    title = "Otro blog de teoría musical"
+    title = "El Muso - Blog de Teoría Musical con material gratuito (y legal)"
     subtitle = "Preservación y enseñanza musical"
     keywords = "blog teoría musical gratis gratuita pdf libro clases musica avanzada armonia"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -72,7 +72,7 @@ category = ""
   [languages.en]
   homeSubtitle = "¡Welcome to my blog! Here i publish a group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
     homedownloadprompt = "To download the content, just click it"
-    title = "Another music theory blog"
+    title = "ElMuso - Music Theory blog with free (and legal) material"
     subtitle = "Musical preservation and teaching"
     keywords = "blog music theory free pdf book class music advanced harmony"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'

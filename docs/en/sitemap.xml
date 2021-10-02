@@ -18,19 +18,6 @@
     <loc>https://elmuso.github.io/en/tags/announcement/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://elmuso.github.io/en/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://elmuso.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elmuso.github.io/en/"
-                />
-  </url><url>
     <loc>https://elmuso.github.io/en/tags/book/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -58,6 +45,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://elmuso.github.io/en/posts/abc-teoria-musical-2/"
+                />
+  </url><url>
+    <loc>https://elmuso.github.io/en/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/"
                 />
   </url><url>
     <loc>https://elmuso.github.io/en/tags/music-theory/</loc>

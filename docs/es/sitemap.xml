@@ -57,9 +57,6 @@
                 href="https://elmuso.github.io/posts/abc-teoria-musical-2/"
                 />
   </url><url>
-    <loc>https://elmuso.github.io/tags/libro/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://elmuso.github.io/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -72,6 +69,9 @@
                 hreflang="es"
                 href="https://elmuso.github.io/"
                 />
+  </url><url>
+    <loc>https://elmuso.github.io/tags/libro/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elmuso.github.io/posts/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
