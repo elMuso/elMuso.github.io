@@ -1,0 +1,37 @@
+[translations]
+other = "Traducciones"
+
+[previous]
+other = "Anterior"
+
+[next]
+other = "Siguiente"
+
+[postAvailable]
+other = "También disponible en"
+
+[archives]
+other = "Archivo"
+
+[home]
+other = "Volver al inicio"
+
+[notFound]
+other = "La pagina que intentabas encontrar aun no se compone..."
+
+[readingTime]
+one   = "Un minuto"
+other = "{{ .Count }} minutos"
+
+[tableOfContents]
+other = "Tabla de Contenido"
+
+[wordCount]
+one   = "Una Palabra"
+other = "{{ .Count }} Palabras"
+
+[lastModified]
+other = "Ultima actualización"
+
+[enableJavascript]
+other = "Por favor activa javascript para activar esta caracteristica."

@@ -1,0 +1,13 @@
+<footer class="footer">
+    {{ range site.Author.authors }}<span> {{ .name }} - {{ now.Format "2006" }}</span>
+    {{ end }}
+    <div >
+        {{ range .Site.Params.main }}
+        <a href="{{.url}}" style="text-decoration:none; margin-right: 15px">{{.name}}</a>
+        {{ end }}
+    </div>
+    
+    <section class="scrollbl">
+        <div class="progress-bar" id="myBar"/>
+        </section>
+    </footer>
