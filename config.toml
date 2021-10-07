@@ -3,8 +3,10 @@ title        = "El Muso"
  canonifyurls = true
 languageCode = "en-us"
 defaultContentLanguage = "es"
+defaultContentLanguageInSubdir= true
 enableRobotsTXT = true
 paginate     = 10
+theme = "localtheme"
 publishDir = "docs"
 collaborators = [
   {name = "Alex", location = "GR", imgurl =""},
@@ -43,7 +45,7 @@ authors = [
 [taxonomies]
 # Disable the default taxonomies
 tag = "tags"
-category = ""
+category = "cat"
 [languages]
   [languages.es]
   homeSubtitle = "¡Bienvenido a mi blog! Aqui publico una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"

@@ -1,5 +1,6 @@
 +++
 title = "Acerca de mi"
+slug = "about"
 +++
 
 ¡Hola! Soy **El Muso**, aunque por supuesto, ese no es mi nombre real.

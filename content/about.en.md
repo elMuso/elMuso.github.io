@@ -1,5 +1,6 @@
 +++
 title = "About me"
+slug = "about"
 +++
 ¡Hi! I'm **El Muso**, but of course, that's not my real name.
 I'm a musician, writer and researcher in my free time, right now I'm still studying music, but at the same time I give some time to make content intermittently

@@ -1,5 +1,6 @@
 +++
 title = "Licencias"
+slug = "licenses"
 +++
 
 All the content distributed here is under:

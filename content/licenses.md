@@ -1,5 +1,6 @@
 +++
 title = "Licencias"
+slug = "licenses"
 +++
 
 Todo el contenido que se ofrece para descargar esta bajo la licencia:

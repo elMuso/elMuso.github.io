@@ -7,7 +7,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/tags/2021/"
+                href="https://elmuso.github.io/es/tags/2021/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -26,7 +26,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/abc-teoria-musical-1/"
+                href="https://elmuso.github.io/es/posts/abc-teoria-musical-1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -39,7 +39,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/abc-teoria-musical-2/"
+                href="https://elmuso.github.io/es/posts/abc-teoria-musical-2/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -52,7 +52,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/"
+                href="https://elmuso.github.io/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -68,7 +68,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/abc-teoria-musical-ejercicios/"
+                href="https://elmuso.github.io/es/posts/abc-teoria-musical-ejercicios/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -81,7 +81,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/"
+                href="https://elmuso.github.io/es/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -94,7 +94,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/tags/"
+                href="https://elmuso.github.io/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -110,7 +110,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/libro-teoria-musical/"
+                href="https://elmuso.github.io/es/posts/libro-teoria-musical/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -123,7 +123,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/posts/de-obras-bolivianas/"
+                href="https://elmuso.github.io/es/posts/de-obras-bolivianas/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -134,23 +134,11 @@
     <loc>https://elmuso.github.io/en/tags/sheets/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://elmuso.github.io/en/index.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://elmuso.github.io/index.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elmuso.github.io/en/index.html"
-                />
-  </url><url>
     <loc>https://elmuso.github.io/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/about/"
+                href="https://elmuso.github.io/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -158,11 +146,23 @@
                 href="https://elmuso.github.io/en/about/"
                 />
   </url><url>
+    <loc>https://elmuso.github.io/en/cat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/cat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/cat/"
+                />
+  </url><url>
     <loc>https://elmuso.github.io/en/licenses/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/licenses/"
+                href="https://elmuso.github.io/es/licenses/"
                 />
     <xhtml:link
                 rel="alternate"
