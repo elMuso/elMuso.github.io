@@ -56,9 +56,9 @@ category = "cat"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Más publicaciones"
     main=[
-      {name="Información/Contacto",url="/about"},
-      {name="Licencias",url="/licenses"},
-      {name="Inicio",url="/"}
+      {name="Información/Contacto",url="/es/about"},
+      {name="Licencias",url="/es/licenses"},
+      {name="Inicio",url="/es/"}
       # {name="Colaboradores",url="/helpers"},
     ]
     downloads=[
@@ -80,9 +80,9 @@ category = "cat"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Other posts"
     main=[
-      {name="About us/Contact",url="/about"},
-      {name="Licences",url="/licenses"},
-      {name="Home",url="/"}
+      {name="About us/Contact",url="/en/about"},
+      {name="Licences",url="/en/licenses"},
+      {name="Home",url="/en/"}
       # {name="Collaborators",url="/helpers"},
     ]
     downloads=[

@@ -171,5 +171,15 @@
                 />
   </url><url>
     <loc>https://elmuso.github.io/es/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/search/"
+                />
   </url>
 </urlset>

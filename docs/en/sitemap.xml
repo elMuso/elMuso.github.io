@@ -169,5 +169,17 @@
                 hreflang="en"
                 href="https://elmuso.github.io/en/licenses/"
                 />
+  </url><url>
+    <loc>https://elmuso.github.io/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/search/"
+                />
   </url>
 </urlset>
