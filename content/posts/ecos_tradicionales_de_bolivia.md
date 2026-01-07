@@ -11,14 +11,14 @@ downloadUrl = "https://github.com/elMuso/EcosTradicionalesDeBolivia/raw/main/Eco
 
 Descarga aquí la antología completa y el **archivo de partituras** titulado **Ecos Tradicionales de Bolivia**. Este documento es un esfuerzo de rescate y creación que reúne el legado de los grandes maestros y nuevas **composiciones para piano boliviano**.
 
-**CC 4.0 N.C**
+**CC 4.0 N.C S.A**
 <!--more-->
 
 [Click here for the English version of this article](https://elmuso.github.io/en/posts/traditional-echoes-bolivia/)
 
 **CC 4.0 N.C — Revisión y Edición: Arold Valda**
 
-### Partituras libres y abiertas bajo la licencia CC 4.0 Atribución N.C
+### Partituras libres y abiertas bajo la licencia CC 4.0 Atribución N.C S.A
 
 Esta antología es el resultado de un exhaustivo proceso de digitalización y edición crítica de **música escrita**. Contiene 25 **partituras para piano** que recorren la historia y el sentimiento de nuestra música, desde manuscritos históricos hasta piezas contemporáneas.
 
