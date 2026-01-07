@@ -11,7 +11,10 @@ downloadUrl = "https://github.com/elMuso/EcosTradicionalesDeBolivia/raw/main/Eco
 
 Download the complete **Piano Sheet Music** anthology titled **Traditional Echoes of Bolivia**. This digital archive brings together the legacy of historical masters and new **contemporary piano scores** from the heart of South America.
 
-**CC 4.0 N.C****CC 4.0 N.C — Revised and Edited by Arold Valda**
+**CC 4.0 N.C**
+<!--more-->
+
+**CC 4.0 N.C — Revised and Edited by Arold Valda**
 
 ### Free and Open Piano Scores under CC 4.0 Attribution N.C
 
