@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://elmuso.github.io/en/tags/announcement/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://elmuso.github.io/en/tags/bolivian-piano-music/</loc>
     <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -58,7 +61,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://elmuso.github.io/es/posts/ecos-tradicionales-bolivia/"
+                href="https://elmuso.github.io/es/posts/ecos-tradicionales-de-bolivia/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,9 +81,6 @@
                 hreflang="en"
                 href="https://elmuso.github.io/en/tags/2021/"
                 />
-  </url><url>
-    <loc>https://elmuso.github.io/en/tags/announcement/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elmuso.github.io/en/tags/book/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
