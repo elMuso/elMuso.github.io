@@ -89,5 +89,4 @@ opacity: 50%;
 {{< /rawhtml >}}
 
 contáctame al siguiente email:
-### elmusoyt@gmail.com
-o simplemente llena este formulario https://forms.gle/A9PNTihtXcJqojDK7
+### aroldvalda@proton.me

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Folklore on El Muso - Blog de Teoría Musical con material gratuito (y legal)</title>
+    <link>http://localhost:1313/es/tags/folklore/</link>
+    <description>Recent content in Folklore on El Muso - Blog de Teoría Musical con material gratuito (y legal)</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/folklore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ecos Tradicionales de Bolivia</title>
+      <link>http://localhost:1313/es/posts/ecos-tradicionales-bolivia/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/ecos-tradicionales-bolivia/</guid>
+      <description>&lt;p&gt;Descarga aquí la antología completa &lt;strong&gt;Ecos Tradicionales de Bolivia&lt;/strong&gt;, un archivo de rescate y creación que reúne el&#xA;legado de los grandes maestros y nuevas propuestas para el piano boliviano.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;CC 4.0 N.C&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Folklore on ElMuso - Music Theory blog with free (and legal) material</title>
+    <link>http://localhost:1313/en/tags/folklore/</link>
+    <description>Recent content in Folklore on ElMuso - Music Theory blog with free (and legal) material</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/folklore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traditional Echoes of Bolivia</title>
+      <link>http://localhost:1313/en/posts/traditional-echoes-bolivia-en/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/traditional-echoes-bolivia-en/</guid>
+      <description>&lt;p&gt;Download the complete anthology &lt;strong&gt;Traditional Echoes of Bolivia&lt;/strong&gt;, a rescue and creation archive that brings together the legacy of great masters and new proposals for the Bolivian piano.&#xA;&lt;strong&gt;CC 4.0 N.C&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

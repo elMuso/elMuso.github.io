@@ -2,6 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://elmuso.github.io/es/tags/2026/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elmuso.github.io/es/tags/bolivian-folklore/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elmuso.github.io/es/posts/ecos-tradicionales-bolivia/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/posts/traditional-echoes-bolivia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/posts/ecos-tradicionales-bolivia/"
+                />
+  </url><url>
+    <loc>https://elmuso.github.io/es/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/"
+                />
+  </url><url>
+    <loc>https://elmuso.github.io/es/tags/lanzamiento/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elmuso.github.io/es/tags/partituras-gratis/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elmuso.github.io/es/tags/piano-sheet-music/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elmuso.github.io/es/posts/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/posts/"
+                />
+  </url><url>
+    <loc>https://elmuso.github.io/es/tags/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elmuso.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://elmuso.github.io/es/tags/"
+                />
+  </url><url>
     <loc>https://elmuso.github.io/es/tags/2021/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -57,47 +124,8 @@
                 href="https://elmuso.github.io/es/posts/abc-teoria-musical-2/"
                 />
   </url><url>
-    <loc>https://elmuso.github.io/es/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elmuso.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://elmuso.github.io/es/"
-                />
-  </url><url>
     <loc>https://elmuso.github.io/es/tags/libro/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elmuso.github.io/es/posts/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elmuso.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://elmuso.github.io/es/posts/"
-                />
-  </url><url>
-    <loc>https://elmuso.github.io/es/tags/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elmuso.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://elmuso.github.io/es/tags/"
-                />
   </url><url>
     <loc>https://elmuso.github.io/es/tags/teor%C3%ADa-musical/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>

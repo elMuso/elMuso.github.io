@@ -88,5 +88,4 @@ opacity: 50%;
 {{< /rawhtml >}}
 
 contact me here:
-### elmusoyt@gmail.com
-or fill this https://forms.gle/A9PNTihtXcJqojDK7
+### aroldvalda@proton.me

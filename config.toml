@@ -5,23 +5,17 @@ languageCode = "en-us"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir= true
 enableRobotsTXT = true
-paginate     = 10
 theme = "localtheme"
 publishDir = "docs"
-collaborators = [
-  {name = "Alex", location = "GR", imgurl =""},
-  {name = "John", location = "US", imgurl =""}
-]
+collaborators = []
 
-[author]
-authors = [
-  {name = "El Muso", location = ""}
-  # {name = "John", location = "US"}
-]
-
+[taxonomies]
+# Disable the default taxonomies
+tag = "tags"
+category = "cat"
 
 [params]
-
+  authorName = "El Muso"
   customCSS = ["/style.css"]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -41,40 +35,39 @@ authors = [
     mask = "#101010"
     msapplication = "#101010"
     theme = "#101010"
-
-[taxonomies]
-# Disable the default taxonomies
-tag = "tags"
-category = "cat"
 [languages]
   [languages.es]
+  languageCode = "es"
+  title = "El Muso - Blog de Teoría Musical con material gratuito (y legal)"
+  [languages.es.params]
   homeSubtitle = "¡Bienvenido a mi blog! Aqui publico una serie de contenidos que surgieron por el deseo de tener una distribución justa, y equitativa, de la enseñanza y cultura musical. Gran parte esta hecha en español... por ahora"
-    homedownloadprompt = "Para descargar cada contenido, haz click sobre el"
-    title = "El Muso - Blog de Teoría Musical con material gratuito (y legal)"
-    subtitle = "Preservación y enseñanza musical"
-    keywords = "blog teoría musical gratis gratuita pdf libro clases musica avanzada armonia"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Más publicaciones"
-    main=[
+  homedownloadprompt = "Para descargar cada contenido, haz click sobre el"
+  subtitle = "Preservación y enseñanza musical"
+  keywords = "blog teoría musical gratis gratuita pdf libro clases musica avanzada armonia"
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  readOtherPosts = "Más publicaciones"
+  main=[
       {name="Información/Contacto",url="/es/about"},
       {name="Licencias",url="/es/licenses"},
       {name="Inicio",url="/es/"}
       # {name="Colaboradores",url="/helpers"},
-    ]
-    downloads=[
+  ]
+  downloads=[
+    {name="Ecos Tradicionales de Bolivia [PDF]",url="https://github.com/elMuso/EcosTradicionalesDeBolivia/raw/main/Ecos%20Tradicionales%20de%20Bolivia%20(alta%20calidad).pdf"},
     {name="El ABC de la teoría musical 1 [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20musical%201.pdf"},
     {name="El ABC de la teoría musical 2 [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20Musical%202.pdf"},
     {name="Ejercicios de teoría musical [PDF]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/CUADERNO%20DE%20EJERCICIOS.pdf"},
     {name="De Obras Bolivianas [PDF]",url="https://github.com/elMuso/DeObrasBolivianas/raw/main/De%20Obras%20Bolivianas.pdf"},
     ]
     [languages.es.params.logo]
-      logoText = "ElMuso.github.io"
-      logoHomeLink = "/"
+    logoText = "ElMuso.github.io"
+    logoHomeLink = "/"
 
   [languages.en]
-  homeSubtitle = "¡Welcome to my blog! Here i publish a group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
+  title = "ElMuso - Music Theory blog with free (and legal) material"
+  [languages.en.params]
+    homeSubtitle = "¡Welcome to my blog! Here i publish a group of content that was made by the desire of having a fair and equal distribution of musical knowledge and cuture. Some of it is only in spanish... for now"
     homedownloadprompt = "To download the content, just click it"
-    title = "ElMuso - Music Theory blog with free (and legal) material"
     subtitle = "Musical preservation and teaching"
     keywords = "blog music theory free pdf book class music advanced harmony"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -86,6 +79,7 @@ category = "cat"
       # {name="Collaborators",url="/helpers"},
     ]
     downloads=[
+    {name="Traditional Echoes of Bolivia [PDF][EN]",url="https://github.com/elMuso/EcosTradicionalesDeBolivia/raw/main/Ecos%20Tradicionales%20de%20Bolivia%20(alta%20calidad).pdf"},
     {name="El ABC de la teoría musical 1 [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20musical%201.pdf"},
     {name="El ABC de la teoría musical 2 [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/El%20ABC%20de%20la%20Teor%C3%ADa%20Musical%202.pdf"},
     {name="Music theory exercises [PDF][ES]",url="https://github.com/elMuso/ElABCTeoriaMusical/raw/main/CUADERNO%20DE%20EJERCICIOS.pdf"},
@@ -104,3 +98,8 @@ category = "cat"
     identifier = "tags"
     name       = "Tags"
     url        = "tags/"
+[pagination]
+  pagerSize = 10
+[services]
+  [services.googleAnalytics]
+    ID = 'G-LBNT13WKRS'

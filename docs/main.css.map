@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "D:/preservacionmusical",
+	"sourceRoot": "C:/Users/PC/Desktop/charango/elMuso.github.io",
 	"sources": [
 		"themes/localtheme/assets/scss/main.scss",
 		"themes/localtheme/assets/scss/_normalize.scss",
