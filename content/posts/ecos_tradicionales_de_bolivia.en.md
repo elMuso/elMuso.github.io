@@ -1,5 +1,5 @@
 +++
-tags = ["Free Sheet Music", "Bolivian Piano Music", "Piano Scores PDF", "Latin American Music"]
+tags = ["Announcement", "Free Sheet Music", "Bolivian Piano Music", "Piano Scores PDF", "Latin American Music"]
 date = "2026-01-07"
 description = "Free Piano Sheet Music Download: 25 essential scores from the Bolivian tradition, featuring works by Caba, Vargas, Palmero, and Valda."
 title = "Traditional Echoes of Bolivia: Piano Sheet Music Archive"

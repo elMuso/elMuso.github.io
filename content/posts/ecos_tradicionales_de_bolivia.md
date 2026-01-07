@@ -1,5 +1,5 @@
 +++
-tags = ["Lanzamiento", "2026", "Partituras Gratis", "Piano Sheet Music", "Bolivian Folklore"]
+tags = ["Anuncio", "2026", "Partituras Gratis", "Piano Sheet Music", "Bolivian Folklore"]
 date = "2026-01-07"
 description = "Descarga partituras gratis de piano: Antología de 25 piezas fundamentales de la tradición boliviana, incluyendo obras de Caba, Vargas y Valda."
 title = "Ecos Tradicionales de Bolivia: Partituras para Piano"
